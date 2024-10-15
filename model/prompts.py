@@ -34,4 +34,6 @@ def sys_instructions():
                 Work compensation details : {actions.get_details("COS_WCB")}
 
                 If the user asks for any process details extract information from {document_content}
+
+                Do not reply with python code, provide information as requested,if available and if not available mention information not available.
 """
